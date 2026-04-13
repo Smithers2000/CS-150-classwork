@@ -1,0 +1,16 @@
+int main(){
+    int stanScore=0;
+    int calScore=0;
+    cout<< "Stanford: How many points did they score? "; 
+    cin >> stanScore;
+    cout << "Cal: How many points did they score? ";
+    cin >> calScore;
+    if(stanScore>calScore){
+        cout << "Stanford won!";
+    }else{
+        cout << "Cal won!";
+    }
+}
+
+
+

@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+    //using double slashes to output backslashes but they are also the escape char.
+    cout << "\\\\\\\\\\\\\\\\\\\\" << "\\\\\\\\\\\\\\\\\\\\" << endl;
+    cout << "|| FEAR THE TREE! ||" << endl;
+    cout << "////////////////////" << endl;
+    return 0;
+}
+
+
+
