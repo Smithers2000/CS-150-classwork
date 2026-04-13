@@ -1,0 +1,16 @@
+int percent = getInteger("What percentage did you earn? ");
+if (percent >= 90) {
+    cout << "You got an A!" << endl;
+}
+if (percent >= 80) {
+    cout << "You got a B!" << endl;
+}
+if (percent >= 70) {
+    cout << "You got a C!" << endl;
+}
+if (percent >= 60) {
+    cout << "You got a D!" << endl;
+}
+if (percent < 60) {
+    cout << "You got an F!" << endl;
+}
