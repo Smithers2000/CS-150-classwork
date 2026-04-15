@@ -5,8 +5,10 @@ double sum=0;
 do {
     cout << "Integer? ";
     cin >> input;
-    sum+=input;
-    count++;
+    if(input%2==0 && input!=0){
+        sum+=input;
+        count++;
+    }
     }while(input!=0);
 
 cout << "Average: " << sum/count;
